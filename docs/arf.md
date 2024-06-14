@@ -732,15 +732,6 @@ The interfaces and their respective protocols, as discussed in this
 section and illustrated in Figure 2, comply with the specifications
 established by [Article 5a](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1183#d1e1347-1-1), paragraph 5, of the regulation.
 
--   **The Wallet Provider Interface (WPI)** is used by the Wallet
-    Instance to communicate with the Wallet Provider to issue the Wallet
-    Trust Evidence and the Wallet Instance Attestation, as well as
-    provide support to the user and collect metrics for accounting
-    purposes.
-
--   **The User Interface (UI)** is the point of interaction and
-    communication between the User and the Wallet Instance.
-
 -   **The Presentation Interface (PI)** empowers Relying Parties to
     securely request and receive the PID and various attestations (such
     as QEAAs, PuB-EAAs and EAAs) from EUDI Wallets, accommodating both
@@ -751,11 +742,6 @@ established by [Article 5a](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=
     \[ISO/IEC 18013-5\] standard. In a remote flow, when a Relying Party
     requires user authentication and data access to provide a service,
     the process initiates through either a web browser or a mobile app.
-
--   **The Secure Cryptographic Interface (SCI)** enables the Wallet
-    Instance to communicate with the Wallet Secure Cryptographic
-    Application (WSCA). This interface is specifically designed for
-    managing cryptographic assets and executing cryptographic functions.
 
 -   **The PID Issuance Interface (PPI)** is based on the \[OpenID4VCI\]
     protocol and is used when the wallet instance communicates with a
@@ -771,6 +757,23 @@ established by [Article 5a](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=
     between the Wallet Instance and the Qualified Electronic Signature
     (QES) Remote Service Provider. This interface is specifically used
     to execute a QES remote signature.
+
+Furthermore, the following interfaces are subject to harmonization, but are
+not considered as interoperable, standardized protocols:
+
+-   **The Wallet Provider Interface (WPI)** is used by the Wallet
+    Instance to communicate with the Wallet Provider to issue the Wallet
+    Trust Evidence and the Wallet Instance Attestation, as well as
+    provide support to the user and collect metrics for accounting
+    purposes.
+
+-   **The Secure Cryptographic Interface (SCI)** enables the Wallet
+    Instance to communicate with the Wallet Secure Cryptographic
+    Application (WSCA). This interface is specifically designed for
+    managing cryptographic assets and executing cryptographic functions.
+
+-   **The User Interface (UI)** is the point of interaction and
+    communication between the User and the Wallet Instance.
 
 Note the "Deletion Request Interface" and the "Reporting Interface" as
 mentioned in the Regulation are not depicted as *interface* in this
