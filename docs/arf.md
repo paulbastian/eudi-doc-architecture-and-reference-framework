@@ -1679,20 +1679,11 @@ Wallet Provider.
 
 A User installs a Wallet Instance because they want to obtain and use
 one or more PIDs and/or attestations. However, there is no requirement
-for a PID Provider or an Attestation Provider to support all certified
+for a PID Provider to support all certified
 Wallet Solutions in the EUDI Wallet ecosystem. This means that the PID
-Provider or an Attestation Provider are not obliged to issue a PID or an
-attestation respectively to any certified Wallet Instance upon the
+Providers are not obliged to issue a PID to any certified Wallet Instance upon the
 request of the User. Instead, they may decide to support only a single
 Wallet Solution, or a limited number of Wallet Solutions.
-
-Therefore, each PID Provider and Attestation Provider will publish a
-list of Wallet Solutions that they support. This list could be
-published, for example, on their respective website. A Wallet Provider
-can also publish a list of PID Providers and Attestation Providers
-supporting their Wallet Solution. This allows Users to know whether the
-Wallet Instance they are about to install will support the PID and the
-attestation(s) they wish to use.
 
 #### 6.5.3 Wallet Instance activation
 
