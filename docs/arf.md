@@ -1683,7 +1683,8 @@ for a PID Provider to support all certified
 Wallet Solutions in the EUDI Wallet ecosystem. This means that the PID
 Providers are not obliged to issue a PID to any certified Wallet Instance upon the
 request of the User. Instead, they may decide to support only a single
-Wallet Solution, or a limited number of Wallet Solutions.
+Wallet Solution, or a limited number of Wallet Solutions. In contrast, Attestation
+Providers are expected to support all compliant EUDI Wallets.
 
 #### 6.5.3 Wallet Instance activation
 
